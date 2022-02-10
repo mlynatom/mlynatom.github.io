@@ -4,11 +4,12 @@ body {
 
 h1 {
     color: whitesmoke;
-    margin: auto;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 p {
     color: whitesmoke;
-    margin: auto;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
