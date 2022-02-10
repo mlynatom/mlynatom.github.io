@@ -12,9 +12,12 @@ h1 {
     font-size: 200px;
 }
 
-p {
-    color: whitesmoke;
+a {
+    color: black;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     background-color: aliceblue;
+    padding: 15px 15px;
+    margin: 30px 30px;
+    border-radius: 10px;
 }
