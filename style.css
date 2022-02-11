@@ -2,14 +2,22 @@ body {
     background-color: black;
 }
 
-h1, p {
-    color: whitesmoke;
-    text-align: center;
+* {  
     font-family: 'Courier New', Courier, monospace;
 }
 
+.buttons{
+    text-align: center;
+}
+
+p {
+    color: whitesmoke;
+}
+
 h1 { 
+    color: whitesmoke;
     font-size: 200px;
+    text-align: center;
 }
 
 a.button {
@@ -22,12 +30,6 @@ a.button {
     border-radius: 10px;
 }
 
-.img_right{
-    float: right;
-    width: 600px;
-    margin-left: 100px;
-}
-
 .img_left{
     float: left;
     width: 600px;
@@ -35,8 +37,11 @@ a.button {
 }
 
 .line{
-    height: 500px;
+    min-height: 500px;
+    margin: 0px 200px 100px 200px;
+}
+
+.text{
     text-align: justify;
     font-size: x-large;
-    margin: 0px 200px 100px 200px;
 }
