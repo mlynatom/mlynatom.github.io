@@ -16,8 +16,38 @@ a {
     color: black;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    background-color: aliceblue;
+    background-color: whitesmoke;
     padding: 15px 15px;
     margin: 30px 30px;
     border-radius: 10px;
+}
+
+.description_left{
+    float: left;
+    width: calc(100% - 600px - 500px);
+    font-size: x-large;
+    margin-left: 200px;
+    text-align: justify;
+    margin-bottom: 300px;
+}
+
+.img_right{
+    float: right;
+    width: 600px;
+    margin: 0px 200px 100px 100px;
+}
+
+.description_right{
+    float: right;
+    width: calc(100% - 600px - 500px);
+    font-size: x-large;
+    margin-right: 200px;
+    text-align: justify;
+    margin-bottom: 300px;
+}
+
+.img_left{
+    float: left;
+    width: 600px;
+    margin: 0px 100px 100px 200px;
 }
