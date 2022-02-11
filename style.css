@@ -12,7 +12,7 @@ h1 {
     font-size: 200px;
 }
 
-a {
+a.button {
     color: black;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
@@ -22,32 +22,21 @@ a {
     border-radius: 10px;
 }
 
-.description_left{
-    float: left;
-    width: calc(100% - 600px - 500px);
-    font-size: x-large;
-    margin-left: 200px;
-    text-align: justify;
-    margin-bottom: 300px;
-}
-
 .img_right{
     float: right;
     width: 600px;
-    margin: 0px 200px 100px 100px;
-}
-
-.description_right{
-    float: right;
-    width: calc(100% - 600px - 500px);
-    font-size: x-large;
-    margin-right: 200px;
-    text-align: justify;
-    margin-bottom: 300px;
+    margin-left: 100px;
 }
 
 .img_left{
     float: left;
     width: 600px;
-    margin: 0px 100px 100px 200px;
+    margin-right: 100px;
+}
+
+.line{
+    height: 500px;
+    text-align: justify;
+    font-size: x-large;
+    margin: 0px 200px 100px 200px;
 }
