@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(255, 253, 243);
 }
 
 * {  
@@ -11,20 +11,20 @@ body {
 }
 
 p {
-    color: whitesmoke;
+    color: black;
 }
 
 h1 { 
-    color: whitesmoke;
+    color: black;
     font-size: 200px;
     text-align: center;
 }
 
 a.button {
-    color: black;
+    color: whitesmoke;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    background-color: whitesmoke;
+    background-color: black;
     padding: 15px 15px;
     margin: 30px 30px;
     border-radius: 10px;
